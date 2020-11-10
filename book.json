@@ -1,0 +1,94 @@
+{
+    "title": "Chai Yuan's notes",
+    "author": "Chai Yuan",
+    "description": "高山仰止,景行行止.虽不能至,心向往之。",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "links": {
+        "sidebar": {
+            "My Blog's": "https://chaidada.cn"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "hide-element",
+        "splitter",
+        "expandable-chapters-small",
+        "copy-code-button",
+        "anchors",
+        "github",
+        "github-buttons",
+        "donate",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "favicon",
+        "click-reveal",
+        "tbfed-pagefooter",
+        "multilingual-index"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/chaiyuan-oss"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link","README.md"]
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "chaiyuan-oss",
+                "repo": "note",
+                "type": "star",
+                "size": "small",
+                "count": true
+                }
+            ]
+        },
+        "donate": {
+            "alipay": "https://chaidada.cn/img/Alipay.png",
+            "title": "赏个鸡腿吧",
+            "button": "赞赏",
+            "alipayText": " "
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": true,
+            "all": [
+                "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+               "messenger","qq", "qzone","viber","whatsapp"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "favicon":{
+            
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy chaidada.cn",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "multilingual-index": {
+            "enableSuper": false,
+            "index":"index.html"
+        }
+    }
+}
