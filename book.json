@@ -27,7 +27,8 @@
         "favicon",
         "click-reveal",
         "tbfed-pagefooter",
-        "multilingual-index"
+        "multilingual-index",
+        "pageview-count"
     ],
     "pluginsConfig": {
         "github": {
